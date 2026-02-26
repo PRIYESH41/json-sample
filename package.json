@@ -1,0 +1,24 @@
+{
+  "name": "my-apis",
+  "version": "1.0.0",
+  "description": "Collection of Api endpoint ",
+  "homepage": "https://github.com/PRIYESH41/JsonServer#readme",
+  "bugs": {
+    "url": "https://github.com/PRIYESH41/JsonServer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRIYESH41/JsonServer.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "json-server --watch db.json --port 3000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.9"
+  }
+}
