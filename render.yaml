@@ -1,1 +1,9 @@
 
+services:
+ - type: web
+   name: json-sample-app
+   env: node
+   plan: free
+   buildCommand: npm install
+   startCommand: npm start
+   region: singapore
